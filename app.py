@@ -17,7 +17,7 @@ def fetch_poster_page(kdrama_id):
     if 'poster_path' in data and data['poster_path'] is not None:
         poster_url = "https://image.tmdb.org/t/p/original" + data['poster_path']
     else:
-        poster_url = None
+        poster_url = "no-poster.jpg"
 
     if 'homepage' in data and data['homepage'] is not None:
         homepage_url = data['homepage']
