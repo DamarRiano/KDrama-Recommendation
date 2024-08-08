@@ -67,37 +67,28 @@ if st.button('Recommend'):
         st.text(names[0])
         if homepage[0] is not None and posters[0] is not None:
             st.markdown('<a href="'+homepage[0]+'"><img src="'+posters[0]+'" width="200" ></a>', unsafe_allow_html=True)
-        else:
-            st.markdown("Data is missing for the recommended item.")
 
     # In col2, display the image with a URL
     with col2:
         st.text(names[1])
         if homepage[1] is not None and posters[1] is not None:
             st.markdown('<a href="'+homepage[1]+'"><img src="'+posters[1]+'" width="200" ></a>', unsafe_allow_html=True)
-        else:
-            st.markdown("Data is missing for the recommended item.")
 
     # In col3, display the image with a URL
     with col3:
         st.text(names[2])
         if homepage[2] is not None and posters[2] is not None:
             st.markdown('<a href="'+homepage[2]+'"><img src="'+posters[2]+'" width="200" ></a>', unsafe_allow_html=True)
-        else:
-            st.markdown("Data is missing for the recommended item.")
-
+        
     # In col4, display the image with a URL
     with col4:
         st.text(names[3])
         if homepage[3] is not None and posters[3] is not None:
             st.markdown('<a href="'+homepage[3]+'"><img src="'+posters[3]+'" width="200" ></a>', unsafe_allow_html=True)
-        else:
-            st.markdown("Data is missing for the recommended item.")
-
+        
     # In col5, display the image with a URL
     with col5:
         st.text(names[4])
         if homepage[4] is not None and posters[4] is not None:
             st.markdown('<a href="'+homepage[4]+'"><img src="'+posters[4]+'" width="200" ></a>', unsafe_allow_html=True)
-        else:
-            st.markdown("Data is missing for the recommended item.")
+        
