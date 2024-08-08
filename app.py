@@ -22,7 +22,7 @@ def fetch_poster_page(kdrama_id):
     if 'homepage' in data and data['homepage'] is not None:
         homepage_url = data['homepage']
     else:
-        homepage_url = None
+        homepage_url = "no-poster.jpg"
 
     return poster_url, homepage_url
 
